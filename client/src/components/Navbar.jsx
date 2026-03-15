@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='flex items-center justify-between py-5 mb-5 border-b border-b-gray-600'>
       <div className='cursor-pointer'>
-        <a className='text-3xl font-extrabold' href="/">ONE BOOK</a>
+        <a className='text-3xl font-extrabold opacity-90' href="/">ONE BOOK</a>
       </div>
       <ul className='hidden md:flex items-start gap-5 font-medium'>
         <NavLink to='/'>

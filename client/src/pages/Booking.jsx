@@ -31,7 +31,7 @@ function Booking() {
 
     let today = new Date()
 
-    for(let i=0; i<7; i++){
+    for(let i=0; i<14; i++){
       let currDate= new Date()
       currDate.setDate(today.getDate()+i)
 
